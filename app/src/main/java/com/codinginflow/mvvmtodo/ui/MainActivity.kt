@@ -1,7 +1,8 @@
-package com.codinginflow.mvvmtodo
+package com.codinginflow.mvvmtodo.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.codinginflow.mvvmtodo.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -9,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         supportActionBar?.hide()
+
 
 
     }

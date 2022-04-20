@@ -2,7 +2,9 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="15dp">
+    android:padding="15dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.task.TaskFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view_tasks"
