@@ -1,3 +1,9 @@
 <resources>
+
     <string name="app_name">MVVMTodo</string>
+    <string name="taskName">Example item</string>
+    <string name="hintTaskName">Task name</string>
+    <string name="importantTask">Important task</string>
+    <string name="dateCreated">Date created:</string>
+
 </resources>
